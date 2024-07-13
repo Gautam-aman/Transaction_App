@@ -2,7 +2,7 @@
 const mongoose = require('mongoose');
 
 //mongoose.connect("mongodb+srv://rigel2128:Rigel2128@paymentap.vtfpfkv.mongodb.net/")
-mongoose.connect("mongodb://rigel2128:Rigel2128@ac-xyxn97a-shard-00-00.vtfpfkv.mongodb.net:27017,ac-xyxn97a-shard-00-01.vtfpfkv.mongodb.net:27017,ac-xyxn97a-shard-00-02.vtfpfkv.mongodb.net:27017/?replicaSet=atlas-uzssz0-shard-0&ssl=true&authSource=admin")
+mongoose.connect("use URL")
 // Create a Schema for Users
 const userSchema = new mongoose.Schema({
     username: {
